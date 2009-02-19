@@ -1,0 +1,28 @@
+---
+title: Home
+author: kfl62
+created_at: 2009-02-19 09:41:43.854328 +02:00
+motto:
+  text: „...pentru un vas, care nu ştie către ce port se îndreaptă, nici un vânt nu este favorabil ...”
+  author: Lucius Annaeus Seneca (cca.4 î.e.n. - 65 e.n.)
+  link: http://ro.wikipedia.org/wiki/Seneca
+filter:
+  - erb
+  - textile
+---
+
+h3. _Scop_
+
+p(transparent note). Crearea, comercializarea şi întreţinerea unui produs informatic „TrstSys” care prin utilizarea lui să permită clienţilor, implementarea unui sistem informatic propriu, în vederea îndeplinirii funcţiilor manageriale (previziune, organizare, antrenare, coordonare şi control) atît la nivelul de procesare a tranzacţiilor cît şi la toate nivelele de conducere (operaţională, tactică şi strategică).
+
+h3. _Sursa_
+
+p(transparent note). Sursa în stadiul curent de dezvoltare îl puteţi găsi la <a href="http://github.com/kfl62/trst_sys/tree/master"> Github trst_sys master</a>. Tot pe github găsiţi şi versiune stabilă <a href="http://github.com/kfl62/trst_sys/tree/rails-2.2.2">Github trst_sys rails-2.2.2</a>
+
+h3. _Probleme_
+
+p(transparent note). Problemele de funcţionare (bug-le), propunerile de îmbunătăţire, propunerile ptr. noi task-uri le puteţi raporta la <a href="http://kfl62.lighthouseapp.com/projects/23846-trst_sys/overview">lighthouseapp.com</a>
+
+h3. _Demo_
+
+p(transparent note). <a href="demo.trst.ro">Site demo</a> Utilizator - demo Parola - demo. Baza de date se resetează zilnic.

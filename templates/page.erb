@@ -1,0 +1,13 @@
+---
+title:      <%= title %>
+author: kfl62
+created_at: <%= Time.now.to_y %>
+motto:
+  text: „...pentru un vas, care nu ştie către ce port se îndreaptă, nici un vânt nu este favorabil ...”
+  author: Lucius Annaeus Seneca (cca.4 î.e.n. - 65 e.n.)
+  link: http://ro.wikipedia.org/wiki/Seneca
+filter:
+  - erb
+  - textile
+---
+p(title). Pagina " <%%= h(@page.title) %> " este în lucru ...

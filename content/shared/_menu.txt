@@ -1,0 +1,10 @@
+---
+filter: 
+  - erb
+---
+
+<dfn>Pagini:</dfn>
+<ul style="list-style-type:none; ">
+  <li><a href="/index.html">Home</a></li>
+  <li><a href="/install.html">Instalare</a></li>
+</ul>

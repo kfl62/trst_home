@@ -1,0 +1,6 @@
+.*
+!.gitignore
+output
+lib/webby
+content/stylesheets/blueprint/src/*.css
+content/stylesheets/blueprint/plugins/*

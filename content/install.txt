@@ -1,0 +1,13 @@
+---
+title:      Instalare
+author: kfl62
+created_at: 2009-02-19 18:43:48.254725 +02:00
+motto:
+  text: „O parte din caracterul neuman al calculatorului este că, după ce a fost programat în mod competent şi a început să lucreze, este complet sincer...” 
+  author: Dr. Isaac Asimov (n. 2 ianuarie 1920 - d. 6 aprilie 1992)
+  link: http://ro.wikipedia.org/wiki/Isaac_Asimov
+filter:
+  - erb
+  - textile
+---
+p(title). Pagina " <%= h(@page.title) %> " este în lucru ...
