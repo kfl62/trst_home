@@ -1,3 +1,7 @@
+SITE.user = "kfl62"
+SITE.host = "trst.ro"
+SITE.remote_dir = "/srv/www/vhosts/trst/www/output"
+SITE.rsync_args = %w( -av --delete )
 
 task :default => :build
 
