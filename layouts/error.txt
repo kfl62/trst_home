@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>TrustSys - <%= @page.title %></title>
+    <meta name="author" content="<%= @page.author %>" />
+    <!--- Blueprint CSS Framework -->
+    <link rel="stylesheet" href="/stylesheets/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/stylesheets/blueprint/print.css" type="text/css" media="print">
+    <!--[if IE]>
+      <link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection">
+   <![endif]-->
+   <!-- CodeRay syntax highlighting CSS -->
+    <link rel="stylesheet" href="/stylesheets/coderay.css" type="text/css"  media="screen, projection" />
+    <!-- Homepage CSS -->
+    <link rel="stylesheet" href="/stylesheets/site.css" type="text/css" media="screen, projection" />
+  </head>
+  <body>
+    <div id="page" class="bp-container">
+      <div id="header">
+        <h1>TrustSys - <%= @page.title %></h1>
+        <div>
+          <span title="<%= @page.motto['author'] %>">
+            <%= @page.motto['text'] %><br>
+            <a href="<%= @page.motto['link'] %>" target="_blank" ><%= @page.motto['author'] %></a>
+          </span>
+        </div>
+      </div>
+      <div id="main">
+        <%= @content %>
+      </div>
+    </div>
+  </body>
+</html>
