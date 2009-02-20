@@ -7,4 +7,5 @@ filter:
 <ul style="list-style-type:none; ">
   <li><a href="/index.html">Home</a></li>
   <li><a href="/install.html">Instalare</a></li>
+  <li><a href="/error/site-map.html">Site_Map</a></li>
 </ul>
