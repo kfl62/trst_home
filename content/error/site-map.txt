@@ -11,4 +11,16 @@ filter:
   - erb
   - textile
 ---
-p(title). Pagina " <%= h(@page.title) %> " este în lucru ...
+p(transparent warning). Probabil aţi ajuns aici din greşeală. Domeniul solicitat este găzduit pe acest server dar subdomeniul nu este alocat...  Aici sunt găzduite domeniile trst.ro, klclean.ro, clean-tech.ro, clean-cons.ro, hkcc.ro. iar domeniile şi subdomeniile alocate sunt :
+
+<%= SiteMap.to_html  %>
+
+p. &nbsp;
+
+h3. _Alte adrese TrustSys_
+
+p(transparent note). Sursa în stadiul curent de dezvoltare îl puteţi găsi la <a href="http://github.com/kfl62/trst_sys/tree/master"> Github trst_sys master</a>. Tot pe github găsiţi şi versiunea stabilă <a href="http://github.com/kfl62/trst_sys/tree/rails-2.2.2">Github trst_sys rails-2.2.2</a> Problemele de funcţionare (bug-le), propunerile de îmbunătăţire, propunerile ptr. noi task-uri le puteţi raporta la <a href="http://kfl62.lighthouseapp.com/projects/23846-trst_sys/overview">lighthouseapp.com</a>
+
+p. &nbsp;
+
+p(transparent). Dacă cumva aţi ajuns aici în timpul rulării aplicaţiei TrustSys trimiteţi un mail la "kfl62":mailto:kfl62g@gmail.com

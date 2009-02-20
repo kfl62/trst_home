@@ -33,7 +33,15 @@ filter:
         </div>
       </div>
       <div id="main">
-        <%= @content %>
+        <div id="col1_content">
+          <%= @content %>
+        </div>
+      </div>
+    </div>
+    <div class="bp-container">
+      <div id="footer">
+        <span class="float_left"><%= @page.mtime.strftime("Ultima modificare: %d-%m-%Y %H:%M:%S") %></span>
+        <span class="float_right">(c) kfl62 &nbsp;&nbsp;&nbsp; created with <a href="http://webby.rubyforge.org">Webby</a></span>
       </div>
     </div>
   </body>

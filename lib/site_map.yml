@@ -1,0 +1,60 @@
+trst.ro:
+  order: 1
+  name: "[www.]trst.ro"
+  kind: "public"
+  browser: "javascript enabled"
+  expl: "TrustSys home page"
+demo.trst.ro:
+  order: 2
+  name: "demo.trst.ro"
+  kind: "public"
+  browser: "javascript enabled"
+  expl: "TrustSys demo page"
+klclean.ro:
+  order: 3
+  name: "[www.]klclean.ro"
+  kind: "public"
+  browser: "javascript enabled"
+  expl: "klclean home page"
+produse.klclean.ro:
+  order: 4
+  name: "produse.klclean.ro"
+  kind: "public"
+  browser: "javascript enabled"
+  expl: "klclean products"
+blog.klclean.ro:
+  order: 5
+  name: "blog.klclean.ro"
+  kind: "public"
+  browser: "javascript enabled"
+  expl: "klclean blog"
+clean-tech.ro:
+  order: 6
+  name: "[www.]clean-tech.ro"
+  kind: "public"
+  browser: "javascript enabled"
+  expl: "redirected to klclean.ro"
+srv.clean-tech.ro:
+  order: 7
+  name: "srv.clean-tech.ro"
+  kind: "private"
+  browser: "Firefox required"
+  expl: "Cleantech Com TrustSys"
+clean-cons.ro: 
+  order: 8
+  name: "[www.]clean-cons.ro"
+  kind: "public"
+  browser: "javascript enabled"
+  expl: "redirected to klclean.ro"
+srv.clean-cons.ro:
+  order: 9
+  name: "srv.clean-cons.ro"
+  kind: "private"
+  browser: "Firefox required"
+  expl: "Clean Consulting TrustSys"
+diren.trst.ro: 
+  order: 10
+  name: "diren.trst.ro"
+  kind: "private"
+  browser: "Firefox recomended"
+  expl: "Diren/Continent TrustSys"
