@@ -51,32 +51,44 @@ body {
 #footer span {
   color: #f5f5f5;
 }
-
 #footer a {
   background:transparent none repeat scroll 0 0;
   text-decoration:none;
   color:#F5F5F5;
   font-weight:bold;
 }
-
 .info { background: #f8f8f8; color: #666; padding: 10px; margin-bottom: 0.5em; font-size: 91.7%; }
 .note { background: #efe; color: #040; border: 2px #484 solid; padding: 10px; margin-bottom: 1em; }
 .important { background: #ffe; color: #440; border: 2px #884 solid; padding: 10px; margin-bottom: 1em; }
 .warning { background: #fee; color: #400; border: 2px #844 solid; padding: 10px; margin-bottom: 1em; }
 .transparent { background: transparent; }
-
 .float_left {
   float: left;
   display: inline;
   margin-right: 1em;
   margin-bottom: 0.15em;
 }
-
 .float_right {
   float: right;
   display: inline;
   margin-left: 1em;
   margin-bottom: 0.15em;
 }
+table.site_map {
+  font-size: 95%;
+  width: 90%;
+  margin: auto;
+  border: medium double #cccccc;
+}
+table.site_map td {
+  padding: 0 5px 0 5px;
+  vertical-align: top;
+}
+
+table.sitemap a {
+  text-decoration: none;
+}
+tr.odd td {background: #cccccc;}
+tr.even td {background: transparent;}
 
 /* EOF */
