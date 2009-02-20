@@ -1,5 +1,6 @@
 .*
 !.gitignore
+log
 output
 lib/webby
 content/stylesheets/blueprint/src/*.css
