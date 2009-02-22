@@ -13,6 +13,7 @@ body {
   border-width: 1px;
 }
 #header {
+  background: transparent url("../images/trst_logo.gif") no-repeat center left;
   height: 90px;
 }
 #header h1{
