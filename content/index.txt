@@ -17,7 +17,7 @@ p(transparent note). Crearea, comercializarea şi întreţinerea unui produs inf
 
 h3. _Sursa_
 
-p(transparent note). Sursa în stadiul curent de dezvoltare îl puteţi găsi la <a href="http://github.com/kfl62/trst_sys/tree/master"> Github trst_sys master</a>. Tot pe github găsiţi şi versiunea stabilă <a href="http://github.com/kfl62/trst_sys/tree/rails-2.2.2">Github trst_sys rails-2.2.2</a>
+p(transparent note). Sursa în stadiul curent de dezvoltare îl puteţi găsi la <a href="http://github.com/kfl62/trst_sys/tree/master"> Github trst_sys master</a>. Tot pe github găsiţi şi versiunea stabilă <a href="http://github.com/kfl62/trst_sys/tree/rails-2.3.2">Github trst_sys rails-2.3.2</a>
 
 h3. _Probleme_
 
