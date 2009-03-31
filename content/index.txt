@@ -25,4 +25,4 @@ p(transparent note). Problemele de funcţionare (bug-le), propunerile de îmbun�
 
 h3. _Demo_
 
-p(transparent note). <a href="demo.trst.ro">Site demo</a> Utilizator - demo Parola - demo. Baza de date se resetează zilnic.
+p(transparent note). <a href="http://demo.trst.ro">Site demo</a> Utilizator - demo Parola - demo. Baza de date se resetează zilnic.
